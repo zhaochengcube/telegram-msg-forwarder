@@ -76,7 +76,10 @@ proxy = ('http', '127.0.0.1', 7890)  # 或设置为 None
 ### 5. 运行机器人
 
 - Windows: 双击 `start_bot.bat` 文件
-- Mac/Linux: 运行 `./start_bot.sh` 脚本
+- Mac/Linux: 
+  - `chmod +x start_bot.sh`
+  - `./start_bot.sh` 
+
 
 ### 6. 设置机器人命令菜单（可选）
 1. 打开 [@BotFather](https://t.me/BotFather)
